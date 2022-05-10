@@ -1,0 +1,37 @@
+@media screen and (max-width: 700px) {
+  header .containerEdit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  header .containerEdit nav {
+    margin-bottom: 1rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .filme-principal {
+    background-position: 39% 61%;
+  }
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .botao {
+    margin-bottom: 1rem;
+  }
+
+  iframe {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 50%;
+  }
+}
